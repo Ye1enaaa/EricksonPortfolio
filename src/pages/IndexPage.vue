@@ -2,7 +2,7 @@
   <div class="">
     <profile-component
       name="Erickson"
-      profession="Backend Web Developer"
+      profession="Fullstack Web Developer"
       description="I'm an Aspiring Software Engineer with one year of experience specializing"
       specialization="backend and internet of things development."
       resumeLink="online resume"
