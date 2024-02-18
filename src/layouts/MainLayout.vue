@@ -12,6 +12,11 @@
         </q-item-label>
         <div class="q-pt-sm"></div>
         <drawer-components />
+        <important-links
+          v-for="(value, index) in buttonLinks"
+          :key="index"
+          :name="value.name"
+        />
       </q-list>
     </q-drawer>
 
@@ -31,20 +36,33 @@
 
 <script>
 import DrawerComponents from "src/components/DrawerComponents.vue";
+import ImportantLinks from "src/components/ImportantLinks.vue";
 import { defineComponent, ref } from "vue";
+
+const buttonLinks = [
+  {
+    name: "> Projects",
+    // link: "https://github.com/Ye1enaaa",
+  },
+  {
+    name: "> Hire Me",
+    // link: "https://github.com/Ye1enaaa",
+  },
+];
 
 export default defineComponent({
   name: "MainLayout",
 
   components: {
     DrawerComponents,
+    ImportantLinks,
   },
 
   setup() {
     const leftDrawerOpen = ref(false);
 
     return {
-      // essentialLinks: linksList,
+      buttonLinks: buttonLinks,
       leftDrawerOpen,
       toggleLeftDrawer() {
         leftDrawerOpen.value = !leftDrawerOpen.value;
