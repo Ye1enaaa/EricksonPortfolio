@@ -49,6 +49,7 @@
         :tech="techStack.tech"
       />
     </div>
+    <div class="q-pa-lg"></div>
   </div>
 </template>
 
