@@ -1,22 +1,7 @@
 <template>
   <q-layout view="lHh Lpr lFf">
-    <!-- <q-header elevated>
-      <q-toolbar>
-        <q-btn
-          flat
-          dense
-          round
-          icon="menu"
-          aria-label="Menu"
-          @click="toggleLeftDrawer"
-        />
-
-        <q-toolbar-title> Erickson Dela Cruz </q-toolbar-title>
-      </q-toolbar>
-    </q-header> -->
-
     <q-drawer
-      class="bg-green flex justify-center"
+      class="bg-green-5 flex justify-center"
       v-model="leftDrawerOpen"
       show-if-above
       bordered
