@@ -1,5 +1,5 @@
 <template>
-  <div class="flex gray-bg">
+  <q-item class="flex gray-bg">
     <div class="q-pa-xl q-ml-lg">
       <q-item-label class="text-h2">Hi, I'm {{ name }}</q-item-label>
       <div class="q-mb-sm"></div>
@@ -22,7 +22,7 @@
         <img :src="avatarUrl" />
       </q-avatar>
     </div>
-  </div>
+  </q-item>
 </template>
 
 <script>
