@@ -1,10 +1,10 @@
 <template>
   <q-item class="flex gray-bg">
-    <div class="q-pa-xl q-ml-lg">
+    <div class="q-pa-xl q-ml-lg q-gutter-y-md">
       <q-item-label class="text-h2">Hi, I'm {{ name }}</q-item-label>
-      <div class="q-mb-sm"></div>
+      <!-- <div class="q-mb-sm"></div> -->
       <q-item-label class="text-subtitle1">{{ profession }}</q-item-label>
-      <div class="q-mb-md"></div>
+      <!-- <div class="q-mb-md"></div> -->
       <div class="justified">
         <p>
           {{ description }}
@@ -14,7 +14,7 @@
           <b>{{ resumeLink }}</b>
         </p>
       </div>
-      <div class="q-mb-sm"></div>
+      <!-- <div class="q-mb-sm"></div> -->
       <q-btn elevated color="green" label="Resume" />
     </div>
     <div class="q-pt-lg q-mt-md q-ml-auto q-mr-xl">
