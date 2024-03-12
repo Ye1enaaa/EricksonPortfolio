@@ -1,11 +1,11 @@
 <template>
-  <div class="q-pt-md q-pl-lg q-ml-xl">
-    <q-item class="flex">
+  <div class="q-pt-md q-pl-lg q-ml-xl q-gutter-y-sm">
+    <q-item class="flex q-gutter-x-md">
       <div class="mini-line"></div>
-      <div class="q-ml-md"></div>
+      <!-- <div class="q-ml-md"></div> -->
       <q-item-label class="what-i-do">Who Am I?</q-item-label>
     </q-item>
-    <div class="q-pb-sm"></div>
+    <!-- <div class="q-pb-sm"></div> -->
     <q-item
       >I am Erickson Dela Cruz, currently a 4th year BSIT student at University
       of Science and Technology of Southern Philippines.<br />

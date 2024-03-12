@@ -10,8 +10,8 @@
           {{ description }}
           <br />
           {{ specialization }}
-          <br />Want to know me better? Check out my
-          <b>{{ resumeLink }}</b>
+          <br />Want to know me better? Check out my <b>{{ resumeLink }}</b
+          >.
         </p>
       </div>
       <!-- <div class="q-mb-sm"></div> -->
