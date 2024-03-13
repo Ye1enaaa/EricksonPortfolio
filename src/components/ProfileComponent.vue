@@ -8,7 +8,6 @@
       <div class="justified">
         <p>
           {{ description }}
-          <br />
           {{ specialization }}
           <br />Want to know me better? Check out my <b>{{ resumeLink }}</b
           >.
