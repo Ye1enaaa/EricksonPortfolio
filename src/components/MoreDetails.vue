@@ -11,6 +11,7 @@
       of Science and Technology of Southern Philippines.<br />
       I have one year of experience in Web and IoT development.
     </q-item>
+    <!-- <q-item class="tech-stack-label"> Frontend Development Tech Stack: </q-item> -->
   </div>
 </template>
 <script>
@@ -26,5 +27,9 @@ export default {
 }
 .what-i-do {
   font-size: 30px;
+}
+
+.tech-stack-label {
+  font-size: 17px;
 }
 </style>
