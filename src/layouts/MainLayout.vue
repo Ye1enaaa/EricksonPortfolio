@@ -8,7 +8,7 @@
     >
       <q-list>
         <q-item-label class="name-label q-pt-sm text-center">
-          EricksonDotDev &lt;/&gt;
+          EricksonDotDev &lt; /&gt;
         </q-item-label>
         <div class="q-pt-sm"></div>
         <drawer-components />
